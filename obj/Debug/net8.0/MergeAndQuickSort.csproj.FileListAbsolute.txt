@@ -1,0 +1,15 @@
+C:\Users\nicho\source\repos\MergeAndQuickSort\bin\Debug\net8.0\MergeAndQuickSort.exe
+C:\Users\nicho\source\repos\MergeAndQuickSort\bin\Debug\net8.0\MergeAndQuickSort.deps.json
+C:\Users\nicho\source\repos\MergeAndQuickSort\bin\Debug\net8.0\MergeAndQuickSort.runtimeconfig.json
+C:\Users\nicho\source\repos\MergeAndQuickSort\bin\Debug\net8.0\MergeAndQuickSort.dll
+C:\Users\nicho\source\repos\MergeAndQuickSort\bin\Debug\net8.0\MergeAndQuickSort.pdb
+C:\Users\nicho\source\repos\MergeAndQuickSort\obj\Debug\net8.0\MergeAndQuickSort.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nicho\source\repos\MergeAndQuickSort\obj\Debug\net8.0\MergeAndQuickSort.AssemblyInfoInputs.cache
+C:\Users\nicho\source\repos\MergeAndQuickSort\obj\Debug\net8.0\MergeAndQuickSort.AssemblyInfo.cs
+C:\Users\nicho\source\repos\MergeAndQuickSort\obj\Debug\net8.0\MergeAndQuickSort.csproj.CoreCompileInputs.cache
+C:\Users\nicho\source\repos\MergeAndQuickSort\obj\Debug\net8.0\MergeAndQuickSort.sourcelink.json
+C:\Users\nicho\source\repos\MergeAndQuickSort\obj\Debug\net8.0\MergeAndQuickSort.dll
+C:\Users\nicho\source\repos\MergeAndQuickSort\obj\Debug\net8.0\refint\MergeAndQuickSort.dll
+C:\Users\nicho\source\repos\MergeAndQuickSort\obj\Debug\net8.0\MergeAndQuickSort.pdb
+C:\Users\nicho\source\repos\MergeAndQuickSort\obj\Debug\net8.0\MergeAndQuickSort.genruntimeconfig.cache
+C:\Users\nicho\source\repos\MergeAndQuickSort\obj\Debug\net8.0\ref\MergeAndQuickSort.dll
