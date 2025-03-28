@@ -23,8 +23,8 @@
                     new student(1013, "Olivia Adams", "Electrical Engineering", "4th Year")
             };
 
-            Console.WriteLine("Merge Sort");
-            Console.WriteLine("------------");
+            Console.WriteLine("Merge Sort in descending order");
+            Console.WriteLine("-------------------------------");
             int[] studentIds = students.Select(s => s.StudentID).ToArray();
             MergeSort(studentIds);
             foreach (var id in studentIds)
@@ -36,8 +36,8 @@
             Console.WriteLine();
             Console.WriteLine();
 
-            Console.WriteLine("Quick Sort");
-            Console.WriteLine("------------");
+            Console.WriteLine("Quick Sort in ascending with first element as pivot");
+            Console.WriteLine("---------------------------------------------------");
             studentIds = students.Select(s => s.StudentID).ToArray();
             QuickSort(studentIds, 0, studentIds.Length - 1);
             foreach (var id in studentIds)
@@ -77,7 +77,7 @@
             int i = 0, j = 0, k = 0;
             while (i < nL && j < nR)
             {
-                if (left[i] <= right[j])
+                if (left[i] >= right[j])
                 {
                     arr[k] = left[i];
                     i++;
@@ -115,9 +115,9 @@
 
         public static int Partition(int[] arr, int low, int high)
         {
-            int pivot = arr[high];
-            int i = low - 1;
-            for (int j = low; j < high; j++)
+            int pivot = arr[low];
+            int i = low;
+            for (int j = low; j <= high; j++)
             {
                 if (arr[j] < pivot)
                 {
@@ -127,10 +127,10 @@
                     arr[j] = temp;
                 }
             }
-            int temp1 = arr[i + 1];
-            arr[i + 1] = arr[high];
-            arr[high] = temp1;
-            return i + 1;
+            int temp1 = arr[low];
+            arr[low] = arr[i];
+            arr[i] = temp1;
+            return i;
         }
     }
 }
